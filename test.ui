@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PUSH ME</string>
+     <string>Push me!</string>
     </property>
    </widget>
   </widget>
@@ -62,12 +62,12 @@
    <slot>slot1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>495</x>
-     <y>336</y>
+     <x>479</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
-     <x>560</x>
-     <y>279</y>
+     <x>526</x>
+     <y>281</y>
     </hint>
    </hints>
   </connection>

@@ -11,6 +11,7 @@ class MainWindow(QMainWindow):
     def slot1(self):
         print("Button clicked")
 
+
 if __name__ == "__main__":
     app = QApplication([])
     window = MainWindow()

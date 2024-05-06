@@ -42,13 +42,11 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.button1.clicked.connect(MainWindow.slot1)
-
-        QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Hello world", None))
-        self.button1.setText(QCoreApplication.translate("MainWindow", u"PUSH ME", None))
+        self.button1.setText(QCoreApplication.translate("MainWindow", u"Push me!", None))
     # retranslateUi
 

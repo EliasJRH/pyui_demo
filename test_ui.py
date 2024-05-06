@@ -49,6 +49,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Hello world", None))
-        self.button1.setText(QCoreApplication.translate("MainWindow", u"PUSH ME", None))
+        self.button1.setText(QCoreApplication.translate("MainWindow", u"Push me!", None))
     # retranslateUi
 
