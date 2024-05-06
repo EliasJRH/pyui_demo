@@ -1,5 +1,5 @@
 from ui import Ui_MainWindow
-from PySide6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -9,8 +9,8 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
       
     def slot1(self):
-        print("Button clicked")
-
+        fname = QFileDialog.getOpenFileName(self, 'Open file', 'c:\\')
+        self.ui.label.setText(fname[0])
 
 if __name__ == "__main__":
     app = QApplication([])
